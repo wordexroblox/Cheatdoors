@@ -39,9 +39,9 @@ end)
 
 local partbut = Instance.new("TextButton")
 partbut.Parent = Frame
-partbut.Size = UDim2.new(0.6, 0, 0.9, 0)
-partbut.Position = UDim2.new(0.2, 0, 0, 0)
-partbut.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+partbut.Size = UDim2.new(0.2, 0, 0.2, 0)
+partbut.Position = UDim2.new(0, 0, 0, 0)
+partbut.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 
 partbut.MouseButton1Click:Connect(function()
   local part = Instance.new("Part") 
