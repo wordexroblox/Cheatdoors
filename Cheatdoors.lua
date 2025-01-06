@@ -36,3 +36,9 @@ wait()
 vis = true
 end
 end)
+
+local partbut = Instance.new("TextButton")
+partbut.Parent = Frame
+partbut.Size = UDim2.new(0.6, 0, 0.9, 0)
+Frame.Position = UDim2.new(0.2, 0, 0, 0)
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
